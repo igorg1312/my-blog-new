@@ -109,5 +109,8 @@
     "test": "grunt test",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
-  "private": true
+  "private": true,
+  "description": "This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.6.1.",
+  "author": "",
+  "license": "ISC"
 }
