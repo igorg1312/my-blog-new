@@ -1,0 +1,25 @@
+[Desktop Entry]
+Categories=Applications;Development;
+Comment=Runs the Red Hat JBoss Developer Studio 9.1.0.GA
+Comment[it]=Runs the Red Hat JBoss Developer Studio 9.1.0.GA
+Encoding=UTF-8
+Exec=/home/graham/jbdevstudio/studio/jbdevstudio 
+GenericName=
+GenericName[it]=
+Icon=/home/graham/jbdevstudio/studio/48-jbds_icon.png
+MimeType=
+Name=Red Hat JBoss Developer Studio 9.1.0.GA
+Name[it]=Red Hat JBoss Developer Studio 9.1.0.GA
+Path=/home/graham/jbdevstudio/studio
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+
+# created by com.izforge.izpack.util.os.Unix_Shortcut $Revision$
+# $Id$

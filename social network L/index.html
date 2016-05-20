@@ -1,0 +1,91 @@
+<html>
+<style>
+table, th, td {
+    border: 1px solid black;
+border-collapse: collapse;
+
+}
+
+th, td {
+    padding: 15px;
+}
+
+#vertical
+{
+ height: 50px;
+ width:850px;
+ border-bottom: 6px solid lightblue;
+ border-top: 6px solid orange;
+border-left: 6px solid red;
+border-right: 6px solid blue;
+ position: absolute;
+ top: 30px;
+ left: 50px;
+ background-color:#FFFF00;
+}
+
+#vertical2
+{
+position:absolute;
+top:80px;
+left: 50px;
+
+}
+
+#vertical3
+{
+position:absolute;
+top:95px;
+left:600px;
+}
+</style>
+
+<body>
+
+<script language="javascript">
+<!--//
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+function pasuser(form) {
+if (form.id.value=="1Kl0p") { 
+if (form.pass.value=="1Kl0p") {              
+location="page2.html" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+//-->
+</script>
+
+<center>
+<div id="vertical2">
+<table bgcolor="white" border="1">
+<tr><td colspan="2"><center><h1><i><b>SecurityISO Platform Login</b></i></h1></center></td></tr>
+<tr><td><h1><i><b>UserID:</b></i></h1></td><td><form name="login"><input
+name="id" type="text"></td></tr>
+<tr><td><h1><i><b>Password:</b></i></h1></td><td><input name="pass"
+type="password"></td></tr>
+<tr><td><center><input type="button" value="Login"
+onClick="pasuser(this.form)"></center></td><td><center><br><input
+type="Reset"></form></td></tr></table></center> 
+</div>
+
+<div id="vertical">
+
+<h2>@Platform Profile </h2>
+
+</div>
+
+<div id="vertical3">
+<h1>Trendin searches</h1>
+<table>
+<tr><td>Business Analyst</td></tr>
+<tr><td>Java</td></tr>
+<tr><td>Project Manager</td></tr>
+<tr><td>.NET</td></tr>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "igor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "igor2",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160519164246",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "demo",
+    "pagination": "no",
+    "microserviceName": "Scrivania",
+    "searchEngine": "no"
+}

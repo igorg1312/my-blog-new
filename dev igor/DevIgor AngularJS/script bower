@@ -1,0 +1,4 @@
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.confi
+
+

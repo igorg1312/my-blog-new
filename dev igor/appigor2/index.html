@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Submission</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_VdAhpu3OJszRnnSz9swbJ");
+   })();
+</script>
+  </head>
+
+ <div class="row">
+      <div class="large-12 columns">
+        <h1>SPAM and PHISHING SUBMISSION</h1>
+      </div>
+    
+
+
+
+<div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+          <h3>Submit a new campaign</h3>
+<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            
+            <input id="spam" type="text" placeholder="Spam Phishing link">
+        </div>
+
+        <div class="pure-control-group">
+            
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
+
+        <div class="pure-control-group">
+            
+            <input id="site" type="text" placeholder="Site name">
+        </div>
+    
+    </fieldset>
+</form>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Submitted";
+    var spam = document.getElementById("spam");
+    var email = document.getElementById("email");
+    var site = document.getElementById("site");
+
+    emailjs.send("default_service","<YOUR TEMPLATE ID>",{name: "James", notes: "Check this out!"});
+    
+}
+
+
+
+
+</script>
+
+<div class="pure-control-group">
+<p>Please insert in the form all the spam campaign data.</p>
+</div>
+
+<div class="pure-controls-group">
+<label for="cb" class="pure-checkbox">
+<input id="cb" type="checkbox"> I agree to segnale this site
+</label>
+</div>
+
+<div class="pure-control-group">
+<button type="submit" class="small button" onclick="myFunction()">Submit</button>
+</div>
+
+<div class="pure-control-group">
+<p id="demo"></p>
+</div>
+
+
+
+
+<div class="row">
+      <div class="large-8 medium-8 columns">
+        <h5>Here&rsquo;s some tips:</h5>
+        <!-- Grid Example -->
+
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="primary callout">
+              <p><strong>Keep your email address to yourself, not include email address in the signature or in the post, never use work email address, review the privacy terms on sites before registering.</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <hr />
+
+        
+        <div class="callout">
+          <h5>Search on anti-spam alliance</h5>
+          <p>Enquire an IP address on anti-spam alliance</p>
+          <a href="http://www.anti-spam.org.cn/?locale=en_US" class="small button">Go to spam anti-spam alliance</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+

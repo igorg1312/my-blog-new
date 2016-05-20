@@ -1,0 +1,6 @@
+{
+  "name": "sentspamphish",
+  "dependencies": {
+    "jquery": "2.2.3"
+  }
+}

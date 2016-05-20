@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+<% include ../partials/nav.ejs %>
+
+<div class="container">
+<h2>Create Bulletin Blog list</h2>
+
+<form action="/myaction" method="post">
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter id" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter name" />
+
+            <label for="message">Description:</label>
+            <textarea id="message" placeholder="Bulletin"></textarea>
+
+            <input type="submit" value="Send message" />
+
+        </fieldset>
+</form>
+
+
+</div>
+
+</body>
+</html>

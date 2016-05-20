@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+<head>
+ 
+</head>
+
+
+<style type="text/css">
+
+h1 {color:red;}
+h2 {color:green;}
+h3 {color:blue;}
+p {color:blue;}
+div {background-color: lightblue;}
+#malware {background-color: yellow;}
+#graph {background-color: white;}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+</style> 
+
+<body>
+
+
+<h1> Ransomware - Poison IVY - Clicker.G </h1>
+
+<div>
+<table style="width:100%">
+<tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Count</th>
+  </tr>
+<tr>
+<td><p id="demo"></p></td><td><h2>Malware</h2></td><td><h3>12k</h3></td>
+</tr>
+<tr>
+<td><p id="demo1"></p></td><td><h2>Malware</h2></td><td><h3>4k</h3></td>
+</tr>
+<tr>
+<td><p id="demo2"></p></td><td><h2>Android</h2></td><td><h3>14k</h3></td>
+</tr>
+</table>
+</div>
+<h3> Click on malware name for technical paper. </h3>
+
+<div id="malware">
+<h2 onclick="myFunction2()"> Ransomware </h2>
+<div id="ransomware" style="display:none">
+<p>Ransomware is a type of malware that can be covertly installed on a computer without knowledge or intention of the user that restricts access to the infected computer system in some way, and demands that the user pay a ransom to the malware operators to remove the restriction. Some forms of ransomware systematically encrypt files on the system's hard drive, which become difficult or impossible to decrypt without paying the ransom for the encryption key, while some may simply lock the system and display messages intended to coax the user into paying. Ransomware typically propagates as a Trojan, whose payload is disguised as a seemingly legitimate file; thus, ransomware is an access-denial type of attack that prevents legitimate users from accessing files.</p>
+</div>
+
+<h2 onclick="myFunction3()"> Poison IVY </h2>
+<div id="poisonivy" style="display:none">
+<p>POISONIVY, also known as POISON, is a popular Remote Administration Tool (RAT) backdoor available in the underground market. It has been in circulation for years. In more recent times, this family of backdoors have been seen in targeted attacks.
+
+Similar to ZEUS and SPYEYE, POISONIVY has a toolkit/builder which can be purchased or downloaded from the underground forums selling such tools. The builder can be customized to cater to the needs of its buyers. Its variants can be configured to the any or all of the following:
+
+    Capture screen, audio, and webcam
+
+    List active ports
+
+    Log keystrokes
+
+    Manage open windows
+
+    Manage passwords
+
+    Manage registry, processes, services, devices, and installed applications
+
+    Perform multiple simultaneous transfers
+
+    Perform remote shell
+
+    Relay server
+
+    Search files
+
+    Share servers
+
+    Update, restart, terminates itself
+
+Most POISONIVY malware are capable of copying itself into Alternate Data Stream, avoiding detection.</p>
+</div>
+
+
+
+<h2 onclick="myFunction4()"> Clicker.G!</h2>
+<div id="clicker" style="display:none">
+<p>Recently the Mobile Malware Research Team of Intel Security found on Google Play a new campaign of Android/Clicker.G in dozens of published malicious apps. This threat targets Russians but the apps are accessible worldwide.</p>
+</div>
+
+</div>
+
+<div>
+<p>Infrastructure:     United States
+    8 [Brazil] Brazil
+    6 [Germany] Germany
+    4 [France] France
+    24 Other
+
+</p>
+<h3>Ransomware</h3>
+<svg width="400" height="110">
+  <rect width="150" height="23" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)">
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+<p>Infrastructure:FileHash-MD5	
+a08a03c23378001a65f56146aaf47e19
+FileHash-SHA256	
+d1aa00b6b11fbefd2dda3b458d9fb5e975865b564bf1c289a6f464b14ad748cc
+hostname	
+www.winupdate.ddns.ms
+hostname	
+www.micrsoft.ddns.ms
+hostname	
+www.microsoft.serveusers.com
+hostname	
+getstrings.jumpingcrab.com</p>
+<h3>Poison IVY</h3>
+<svg width="400" height="110">
+  <rect width="100" height="23" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)">
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+<p>Infrastructure:     Germany
+
+Targeted Products
+
+    Oracle (2 Products)
+    Adobe Flash Player (116 Versions)
+    Microsoft (11 Products)
+    Gnu Bash (25 Versions) </p>
+<h3>Clicker.G</h3>
+<svg width="400" height="110">
+  <rect width="170" height="23" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)">
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+
+<div>
+
+
+<script type="text/javascript">
+
+function myFunction(b) {
+    return b;
+}
+
+document.getElementById("demo").innerHTML = myFunction("Ransomware");
+document.getElementById("demo1").innerHTML = myFunction("Poison IVY");
+document.getElementById("demo2").innerHTML = myFunction("Clicker.G");
+
+
+function myFunction2() {
+document.getElementById('ransomware').style.display = 'block';
+
+}
+
+function myFunction3() {
+document.getElementById('poisonivy').style.display = 'block';
+
+}
+
+function myFunction4() {
+document.getElementById('clicker').style.display = 'block';
+
+}
+
+function drawcanvas2() {
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+}
+
+
+</script>
+
+
+
+</body>
+
+
+
+</html>
